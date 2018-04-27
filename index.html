@@ -1,0 +1,253 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Juan Daniel Tepepa Mejia</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!-- grupo javascript-->
+<script src ="js/jquery-1.11.2.min.js"></script>
+<script src ="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src ="js/acciones.js"></script>-->
+<script src ="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<body onLoad="MM_preloadImages('imagenes/Marcas/Trek.jpg')">
+
+
+<div data-role="page" id "Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Día mundial de la bicicleta</h1>
+</div>
+<div data-role="main" class="ul-content">
+ <div data-role="collapsible" data-content-theme="false">
+  <h1> 19 de abril </h1>
+   <div>
+   <p>DÍA MUNDIAL DE LA BICICLETA</p>
+<a href="https://es.wikipedia.org/wiki/D%C3%ADa_Mundial_de_la_Bicicleta"
+   target="_self"> Ir a la pagina relacionada al tema</a>
+   <br>
+   </div>
+   <div> 
+    <img src="imagenes/personasenbicicletas.jpg" width="60%" height= "60%">
+    </div>
+    </div>
+    </div>
+<div>
+ <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+  <li class="ui-first-child ui-last-child">
+  <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Historia de la bicicleta</h2>
+  <p> ¿Por qué se creó este transporte?</p>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Utilización como medio de transporte</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+  <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  <h2>Tipos de bicicletas</h2>
+  </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>5 marcas importantes de bicicletas</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Por qué se celebra este día?</h2>
+   </a>
+   </li>
+  </ul>
+  </div> 
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src ="imagenes/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+      <h4>Aplicacion Tres</h4>
+      <h4>Juan Daniel Tepepa Mejia</h4>
+   </div>
+  </div>
+  </div>
+ <div data-role="page" id="Pagina1" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Historia</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+<p>En el Antiguo Egipto se fabricaron artefactos rudimentarios compuestos por dos ruedas unidas por una barra. También se conoció en China un artilugio muy similar, pero con ruedas hechas de <em>bambú</em>. 
+<p>Se dijo que en 1791 el conde Mede de Sivrac había inventado en París el celerífero, al que también llamaban caballo de ruedas. Este consistía en un listón de madera terminado en una cabeza de león, de dragón o de ciervo, y montado sobre dos ruedas.. El personaje fue creado en 1891 por el periodista francés, especialista en la locomoción terrestre, Louis Baudry de Saunier (1865-1938). Para él, era más gratificante realizar una copia de la invención de Karl Drais para 1790 y atribuirlo a un francés, en su Historia General el velocípedo, que apareció en 1891.</p>
+<p>&nbsp;</p>
+<p><img src="imagenes/celerifero.jpg" width="60%" height="60%"></p>
+<p>Celerifero (1791)   </p>
+     </div>
+    </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Tres, JDTM</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina2" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Utilización como medio de transporte</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <p>La bicicleta además de beneficiar a la salud, ya que para el sistema cardiovascular es recomendable y para la actividad física, lo es también como un medio de transporte, por supuesto no tiene el alcance en velocidad que puede tener una moto o un automóvil, pero si tiene otras ventajas que han hecho que su uso sea importante y que por muchas generaciones siga estando vigente.La bicicleta sí es efectiva como medio de transporte para distancias no tan extensas, para usarla dentro de una ciudad o pueblo es de mucha utilidad.</p>
+     <p>El uso de la bicicleta está extendido en casi todo el continente europeo. En países como Holanda, Suiza, Alemania, unas zonas de Polonia y en los países nórdicos; se ha convertido en uno de los primordiales medios de transporte.</p>
+     <p><img src="imagenes/personasenbicicletas.jpg" width="275" height="183" alt="234"></p>
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Tres, JDTM</h4>
+   </div>
+  </div>
+ 
+ 
+ <div data-role="page" id="Pagina3" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Tipos de bicicleta</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+<p>Dependiendo del terreno, el tipo de uso o simplemente el gusto personal, cada persona necesita un tipo de bicicleta. Por fortuna, existen muchas clases al servicio de quien quiere disfrutar dando pedales:</p>
+<h3>Bicicleta de carretera</h3>
+<p>Ligera para ahorrar peso en las subidas.</p>
+<h3> Bicicleta de montaña</h3>
+<p>Para dar satisfacción a los locos de los descensos y de los recorridos por terrenos más escarpados.</p>
+<h3> BMX</h3>
+<p>Para acrobacias urbanas .</p>
+<h3>Bicicleta Híbrida </h3>
+<p>Se usa a menudo para pedalear por ciudad, y se caracteriza por montar un cuadro de rigidez intermedia y unas ruedas algo más finas que las de una <em>mountain bike</em>.</p>
+<h3>Para Contrareloj:</h3>
+</h3>
+<p>Cuentan con un ligerísimo cuadro que ofrece la mínima resistencia al aire, ruedas finas habitualmente montadas sobre llantas con radios de carbono y un manillar característico en forma de cuernos, con el remate hacia arriba, que se complementa con otras dos manetas en el centro para mejorar la posición. </p>
+<h3>Crusier o playera</h3>
+<p>Estas bicicletas conservan el sabor de los míticos años cincuenta norteamericanos. Robustas, de gruesas ruedas, con portaequipaje, faros, sillín ancho y diseño retro, están indicadas para el paseo tranquilo o para pedalear hacia el picnic del fin de semana.</p>
+<h3>Reclinada</h3>
+<p>Para grandes distancias se han pensado estas máquinas que tanto llaman la atención. Se trata de bicicletas en las que el ciclista pedalea recostado, en muchas ocasiones protegido de los elementos por un sencillo carenado, y capaces de transportar el equipaje.</p>
+<h3>Infantil</h3>
+<p>Más allá de los clásicos triciclos para los más pequeños, hay multitud de modelos para que los niños y las niñas se inicien en el ciclismo, inspirados habitualmente en las bicicletas para mayores.</p>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/bmx.jpg" alt="BMX" title="BMX" id="wows1_0"/></li>
+		<li><img src="data1/images/carretera.jpg" alt="Carretera" title="Carretera" id="wows1_1"/></li>
+		<li><img src="data1/images/contrareloj.jpg" alt="Contrareloj" title="Contrareloj" id="wows1_2"/></li>
+		<li><img src="data1/images/crusier.jpg" alt="Crusier" title="Crusier" id="wows1_3"/></li>
+		<li><img src="data1/images/hibrida.jpg" alt="Hibrida" title="Hibrida" id="wows1_4"/></li>
+		<li><img src="data1/images/infantil.jpg" alt="Infantil" title="Infantil" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/mountainbike.jpg" alt="image slider" title="Mountainbike" id="wows1_6"/></a></li>
+		<li><img src="data1/images/reclinada.jpg" alt="Reclinada" title="Reclinada" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="BMX"><span><img src="data1/tooltips/bmx.jpg" alt="BMX"/>1</span></a>
+		<a href="#" title="Carretera"><span><img src="data1/tooltips/carretera.jpg" alt="Carretera"/>2</span></a>
+		<a href="#" title="Contrareloj"><span><img src="data1/tooltips/contrareloj.jpg" alt="Contrareloj"/>3</span></a>
+		<a href="#" title="Crusier"><span><img src="data1/tooltips/crusier.jpg" alt="Crusier"/>4</span></a>
+		<a href="#" title="Hibrida"><span><img src="data1/tooltips/hibrida.jpg" alt="Hibrida"/>5</span></a>
+		<a href="#" title="Infantil"><span><img src="data1/tooltips/infantil.jpg" alt="Infantil"/>6</span></a>
+		<a href="#" title="Mountainbike"><span><img src="data1/tooltips/mountainbike.jpg" alt="Mountainbike"/>7</span></a>
+		<a href="#" title="Reclinada"><span><img src="data1/tooltips/reclinada.jpg" alt="Reclinada"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Tres, JDTM</h4>
+   </div>
+  </div>
+  
+  <div data-role="page" id="Pagina4" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> 5 Marcas importantes de bicicleta</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <h3>Marcas de bicicletas con mayor presencia</h3>
+     <p><strong>– Specialized</strong>. Marca norteamericana considerada por muchos como la mejor del mundo</strong> aunque sí se podría decir que es la más mediática. Además de patrocinar a algunos de los atletas más exitosos</strong> del mundo en todas las modalidades deportivas en que interviene una bici, hacen bicicletas para todo tipo de usos: carretera, triatlón y montaña tanto para competición como para usos un poco más recreativos, además de tener una gran gama de complementos y vestuario para el ciclista</p>
+     <p><strong>– Trek. </strong>Esta mítica marca norteamericana</strong> de bicicletas lleva varios años siendo la máxima rival de Specialized</strong>, pues hacen máquinas muy avanzadas tecnológicamente</strong> y además patrocinan a muchos equipos de competición</strong>. También hacen bicicletas para todo tipo de uso: carretera, triatlón y montaña, y sus precios no son nada excesivos.</p>
+     <p><strong>– Merida.</strong> Esta empresa taiwanesa es uno de los principales fabricantes de bicicletas del mundo</strong>, pues no sólo hace sus propias bicicletas sino que además es uno de los que más cuadros elabora para terceros. Hacen bicicletas de gran calidadtanto de carretera como de triatlón, pero es quizás en su sección de bicis de montaña donde esta marca se gana su pretigio a nivel internacional.</p>
+     <p><strong>– Scott.</strong> Una de las marcas más vanguardistas en todos los segmentos competitivos: montaña, carretera y triatlón. Es suiza y no sólo se dedica a la fabricación y venta de bicicletas, sino que tienen todo tipo de complementos y vestuario para los ciclistas (zapatillas, cascos, etc.) además de dedicarase a otros deportes.</p>
+     <p><strong>– Giant.</strong> .Es al igual que Merida una marca taiwanesa que a pesar de hacer productos propios, es también de los principales fabricantes de cuadros del mundo para terceros. Tienen bicicletas muy buenas y fiables y destacan tanto en carretera, como en triatlón y bicis de montaña. Tienen una presencia bastante considerable entre los equipos de élite de competición.</p>
+     <p>&nbsp;</p>
+     <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','imagenes/Marcas/Trek.jpg',1)"><img src="imagenes/Marcas/Giant.jpg" width="275" height="183" id="Image30"></a></p>
+     <img src="" width="200" height= "auto">
+     </div>
+ </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Tres, JDTM</h4>
+   </div>
+  </div>
+  
+  
+  <div data-role="page" id="Pagina5" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>¿Por qué se celebra este día?</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div >
+     <p>El dia mundial de la bicicleta se celebra en todo el mundo cada 19 de abril con la finalidad de promover el uso de este medio de transporte, llamar la atención sobre los derechos de los ciclistas y destacar los beneficios para la salud y para la movilidad sostenible. La fecha hace referencia al 19 de abril de 1943, cuando Albert Hofmann, conocido como "El padre del LSD", realizaba en su laboratorio un autoexperimento con una sustancia para determinar sus efectos psicotrípicos tras el cual su regreso a casa se tornaría famoso </p>
+     <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/BMX.jpg',0)"><img src="imagenes/Carretera.JPG" width="768" height="512" id="Image28"></a></p>
+     </div>
+    </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="imagenes/mdpi.png" width="46" height="46">
+     </div>
+     <h4>Aplicacion Tres, JDTM</h4>
+   </div>
+  </div>
+</body>
+</html>
